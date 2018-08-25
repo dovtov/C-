@@ -1,0 +1,19 @@
+
+- do not link (-c): use for compling individual files:
+g++ -std=c++11 -c -o LogAnalyzer.o ./LogAnalyzer.cpp
+
+- to compile Main.cpp and link with the object file of LogAnalyzer.o
+g++ -std=c++11 -o LogAnalyzer LogAnalyzer.o Main.cpp     
+
+- to run:
+$ ./LogAnalyzer
+
+./tmp < data
+
+where data:
+-----------
+a1b2c33
+sip.log
+9
+d
+-------------
